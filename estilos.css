@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-superior{
+    width: 107%;
+    height: 150px;
+    background-image: url("WhatsApp-Image-2024-10-23-at-10.38.06.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: none;
+}
+h1{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: center;
+    border-radius: 3vh;
+    margin: 0;
+}
