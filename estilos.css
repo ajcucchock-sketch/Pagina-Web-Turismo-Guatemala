@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(WhatsApp\ Image\ 2026-05-04\ at\ 2.55.01\ PM.jpeg);
     margin: 0 !important;
     padding: 0;
     box-sizing: border-box;
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-position: center;
 }
 .banner-superior{
     width: 107%;
@@ -75,21 +78,26 @@ li a:hover{
     width: 150px;
 }
 h2{
-    font-family: "Aptos", sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 20%;
     color: rgb(112, 109, 109);
     padding: 20px;
     margin-left: 2%;
+    text-align: center;
+}
+p{
+    font-family: "Aptos", sans-serif;
+    text-align: center;
 }
 .contenedor-info{
     display: flex;
     justify-content: space-around;
-    background-color: #ebe5e5;
+    background-color: #f6ebeb4b;
     width: 50%;
     padding: 30px;
     border-radius: 20px;
-    text-align: center;
     margin-left: 3%;
-    
+    text-align: center;
 }
 .tarjeta{
     flex: 1;
@@ -112,14 +120,17 @@ h2{
 }
 .tarjeta img {
     width: 50px;
+    text-align: center;
 }
 .tarjeta:hover img {
-     filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.2));
+    filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.2));
+    text-align: center;
 }
 .titulo-seccion{
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
     margin-bottom: 40px;
+    text-align: center;
 }
 .a{
     margin: 0;
