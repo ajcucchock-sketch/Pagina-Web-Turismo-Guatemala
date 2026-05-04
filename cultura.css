@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(WhatsApp\ Image\ 2026-05-04\ at\ 2.55.01\ PM.jpeg);
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-position: center;
+}
+.banner-superior{
+    width: 107%;
+    height: 150px;
+    background-image: url("WhatsApp-Image-2024-10-23-at-10.38.06.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: none;
+}
+h1{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: center;
+    border-radius: 3vh;
+    margin: 0;
+}
+.barra-nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(30, 25, 25);
+    display: block;
+    margin-top: 0%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+li{
+    font-size: 32px;
+    list-style: none ;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+li a:hover{
+     background-color: rgb(52, 167, 220);
+     padding: 5px;
+     border-radius: 7%;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.busqueda span {
+    margin-right: 8px;
+    font-size: 18px;
+}
+.busqueda input {
+    border: none;
+    outline: none;
+    width: 150px;
+}
+h2{
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 2%;
+}
+h2{
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 2%;
+}
+p{
+    font-family: "Aptos", sans-serif;
+    color: rgb(33, 26, 26);
+    padding: 20px;
+    margin-left: 2%;
+}
+img {
+   display: block;
+   margin: 20px auto;
+   max-width: 75%;
+   height: 10%;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(rgb(40, 39, 39));
+   width: 30%;
+}
+.tikal{
+     display: block;
+   margin: 20px auto;
+   max-width: 75%;
+   height: 40%;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(rgb(40, 39, 39));
+   width: 200%;
+}
+
+ h1,h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+h3{
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 2%;
+}
