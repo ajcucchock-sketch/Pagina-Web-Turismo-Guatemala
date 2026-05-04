@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(WhatsApp\ Image\ 2026-05-04\ at\ 2.55.01\ PM.jpeg);
     margin: 0 !important;
     padding: 0;
     box-sizing: border-box;
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    background-position: center;
 }
 .banner-superior{
     width: 107%;
@@ -79,4 +82,45 @@ h2{
     color: rgb(112, 109, 109);
     padding: 20px;
     margin-left: 2%;
+}
+h2{
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 2%;
+}
+p{
+    font-family: "Aptos", sans-serif;
+    color: rgb(33, 26, 26);
+    padding: 20px;
+    margin-left: 2%;
+}
+img {
+   display: block;
+   margin: 20px auto;
+   max-width: 75%;
+   height: 10%;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(rgb(40, 39, 39));
+   width: 30%;
+}
+.tikal{
+     display: block;
+   margin: 20px auto;
+   max-width: 75%;
+   height: 40%;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(rgb(40, 39, 39));
+   width: 200%;
+}
+
+ h1,h2 {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
