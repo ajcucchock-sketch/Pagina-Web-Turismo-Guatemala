@@ -80,9 +80,57 @@ h2{
     padding: 20px;
     margin-left: 2%;
 }
-p{
+.contenedor-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebe5e5;
+    width: 50%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 3%;
+    
+}
+.tarjeta{
+    flex: 1;
+}
+.tarjeta img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+.tarjeta h3{
+    margin: 0;
+    font-size: 1.2rem;
     font-family: "Aptos", sans-serif;
-    color: rgb(33, 26, 26);
-    padding: 20px;
-    margin-left: 2%;
+    cursor: pointer;
+}
+.tarjeta p {
+    color: #1f1a1a;  
+    margin-top: 5px; 
+    font-family: sans-serif;
+    margin-left: 3%;
+}
+.tarjeta img {
+    width: 50px;
+}
+.tarjeta:hover img {
+     filter: drop-shadow(0px 5px 10px rgba(0,0,0,0.2));
+}
+.titulo-seccion{
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 40px;
+}
+.a{
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: "Aptos", sans-serif;
+}
+.cultura{
+    text-decoration: none;
+    color: black;
+}
+.lugares-turisticos{
+    text-decoration: none;
+    color: black;
 }

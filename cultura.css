@@ -74,3 +74,9 @@ li a:hover{
     outline: none;
     width: 150px;
 }
+h2{
+    font-family: "Aptos", sans-serif;
+    color: rgb(112, 109, 109);
+    padding: 20px;
+    margin-left: 2%;
+}
